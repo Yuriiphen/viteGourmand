@@ -32,7 +32,7 @@
    mot de passe : ECF123
    base : vite_gourmand
    port : 3307
-   
+   le port peut varier selon la configuration.
 
 ## Lancement
 
