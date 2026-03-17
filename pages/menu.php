@@ -5,6 +5,6 @@
 
 <div id="menu-container"></div>
 
-<script src="<?= BASE_URL ?>/assets/js/menus.js"></script>
+<script src="../assets/js/menus.js"></script>
 
 <?php require_once dirname(__DIR__) . '/includes/footer.php'; ?>
