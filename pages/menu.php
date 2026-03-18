@@ -3,6 +3,9 @@
 
 <h1>Nos menus</h1>
 
+<label for="prixMax">Prix max :</label>
+<input type="number" id="prixMax" />
+
 <div id="menu-container"></div>
 
 <script src="../assets/js/menus.js"></script>
