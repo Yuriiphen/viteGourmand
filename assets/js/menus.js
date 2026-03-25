@@ -8,6 +8,9 @@ function afficherMenus(menus) {
     }
 
     menus.forEach(menu => {
+
+        console.log(menu);
+        
         const div = document.createElement('div');
 
         div.innerHTML = `
@@ -16,6 +19,9 @@ function afficherMenus(menus) {
             <p>Prix : ${menu.prix} €</p>
             <p>Minimum : ${menu.nb_personne_min} personnes</p>
             <p>Stock disponible : ${menu.stock}</p>
+            <a href="/viteGourmand/pages/menuDetail.php?id=${menu.id}">
+            Voir le détail
+            </a>
         `;
 
         container.appendChild(div);

@@ -59,11 +59,16 @@ foreach($plats as $plat):
 
 
 <?php if(isset($_SESSION['user_role']) && $_SESSION['user_role'] == 'user'): ?>
-    <a href="<?= BASE_URL ?>/pages/commander.php?id=<?= $menu['id'] ?>">Commander ce menu</a>
+    <a href="<?= BASE_URL ?>/pages/commander.php?id=<?= $menu['id'] ?>">Commander ce menu</a><br><br>
 <?php else: ?>
     <p><em>Seuls les clients peuvent passer commande.</em></p>
 <?php endif; ?>
+
+<a href="<?= BASE_URL ?>/pages/menu.php">Retour aux menus</a>
+
 <?php 
+
+
 require_once dirname(__DIR__) . '/includes/footer.php';
 
 
